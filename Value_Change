@@ -1,0 +1,11 @@
+x =[2,3,4,5,6,8,]
+New_list = []
+for i in x:
+    if i % 2==0:
+        New_list.append(i  + 2)
+    else:
+        New_list.append(i - 1)
+    
+print(New_list)
+
+    
