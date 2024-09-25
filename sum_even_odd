@@ -1,0 +1,10 @@
+x = [3,2,5,7,8]
+even = 0 
+odd = 0
+for i in x:
+    if i %2 ==0:
+        even = even + i
+    else:
+        odd = odd + i
+print("totd evennumbers:", even)
+print("totd evennumbers:",odd)
