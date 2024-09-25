@@ -1,0 +1,6 @@
+x = "xy4l5m2"
+sum = 0
+for i in x :
+    if i in "123456789":
+        sum += int(i)
+print(sum)
