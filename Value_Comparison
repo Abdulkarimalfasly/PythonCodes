@@ -1,0 +1,14 @@
+x = 3
+y = 6
+n = 2
+
+if x > y:
+    if x > n:
+        print("x is larger than both y and n")
+    else:
+        print("x is larger than y but not larger than n")
+else:
+    if x > n:
+        print("x is not larger than y but is larger than n")
+    else:
+        print("x is not larger than either y or n")
