@@ -1,0 +1,16 @@
+x = 8
+y = 5
+def add(x,y):
+    f = x + y
+    return f
+z = add(x, y)
+print(z)
+x = 8
+y = 5
+def SaidAlyahoodi(x,y):
+    f = x + y
+    s = x - y
+    return f, s
+z,q= SaidAlyahoodi(x, y)
+print(z)
+print(q)
