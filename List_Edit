@@ -1,0 +1,13 @@
+x = [3, 5, 2, 6, 8, 9, 2, 4]
+print(x)
+for i in x:
+    if i == 2:
+        x.remove(2)    
+print(x)
+
+x.remove(5)
+print(x)
+x.append(77)
+print(x)
+x.pop(2)
+print(x)
