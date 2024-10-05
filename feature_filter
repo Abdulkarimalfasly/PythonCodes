@@ -1,0 +1,13 @@
+from sklearn.feature_selection import VarianceThreshold
+x = [
+    [0, 0, 1],
+    [0, 1, 0],
+    [0, 0, 0],
+    [0, 1, 1],
+    [0, 1, 0],
+]
+sel = VarianceThreshold(threshold=0)
+sel.fit(x)
+x_transformed = sel.tra
+print("Data after filtering:")
+print(x_transformed)
