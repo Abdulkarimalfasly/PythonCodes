@@ -1,0 +1,8 @@
+import numpy as np
+
+array = np.zeros((4, 4), dtype=int)
+array[0] = 1
+array[2] = np.random.randint(1, 100, size=4)
+array[3] = np.random.randint(1, 100, size=4)
+
+print(array)
