@@ -1,0 +1,19 @@
+# Define the function that takes a number and adds 1 to it
+def addition(num):
+    # Add 1 to the input number
+    result = num + 1
+    
+    # Return the result
+    return result
+
+# Example 1: Test the function with the number 0
+output1 = addition(0)  # The result should be 1
+print(output1)  # Output should be 1
+
+# Example 2: Test the function with the number 9
+output2 = addition(9)  # The result should be 10
+print(output2)  # Output should be 10
+
+# Example 3: Test the function with the number -3
+output3 = addition(-3)  # The result should be -2
+print(output3)  # Output should be -2
