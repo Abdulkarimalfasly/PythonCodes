@@ -1,0 +1,10 @@
+def yeah_nope(bool_value):
+    # Check if the value is True
+    if bool_value == True:
+        return "yeah"  # If the value is True, return "yeah"
+    else:
+        return "nope"  # If the value is False, return "nope"
+
+# Example usage:
+print(yeah_nope(True))  # ➞ "yeah"
+print(yeah_nope(False)) # ➞ "nope"
